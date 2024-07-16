@@ -1,7 +1,2 @@
-import { BrowserWindowConstructorOptions } from 'electron';
-
-export type BrowserWindowOrNull = Electron.BrowserWindow | null;
-
-export interface WindowProps extends BrowserWindowConstructorOptions {
-  id: string;
-}
+export * from './channel';
+export * from './window';
