@@ -6,7 +6,7 @@ import { ChannelController } from './controllers/base';
 import { FBProfileController } from './controllers/facebook';
 import { Page } from 'puppeteer-core';
 import { ChannelType } from '@shared/constants';
-import { randomString } from 'shared/utils/random';
+import { randomString } from '@shared/utils/random';
 import { Channel } from '@shared/types';
 
 class ChannelManager {
