@@ -21,7 +21,8 @@
     "react-dom": "^18",
     "react-router-dom": "^6.23.0",
     "@tanstack/react-query": "^5.34.1",
-    "file-system-db": "^2.1.0"
+    "file-system-db": "^2.1.0",
+    "puppeteer-core": "^22.7.1"
   },
   "devDependencies": {
     "electron": "^30.0.1",
