@@ -12,12 +12,27 @@
     "dev": "electron-vite --watch --mode dev",
     "prebuild": "electron-vite build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "antd": "^5.17.0",
+    "axios": "^1.4.0",
+    "electron-router-dom": "^1.0.5",
+    "electron-store": "^8.2.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-router-dom": "^6.23.0",
+    "@tanstack/react-query": "^5.34.1",
+    "file-system-db": "^2.1.0"
+  },
   "devDependencies": {
     "electron": "^30.0.1",
     "electron-vite": "^2.2.0",
     "tslib": "^2.6.2",
     "typescript": "^5.4.5",
-    "vite": "^5.2.10"
+    "vite": "^5.2.10",
+    "postcss": "^8.4.38",
+    "sass": "^1.76.0",
+    "tailwindcss": "^3.4.3",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0"
   }
 }
