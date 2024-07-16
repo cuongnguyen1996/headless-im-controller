@@ -1,0 +1,23 @@
+{
+  "name": "headless-im-controller",
+  "version": "0.0.0",
+  "description": "This project aims to provide simplicity for automation test purpose of IM related products. This also provide capability to centralize management and controlling of the automation test from a single server",
+  "main": "./out/main/index.js",
+  "repository": "https://github.com/cuongnguyen1996/headless-im-controller",
+  "author": "Cuong Nguyen <cuongnguyen29696@gmail.com>",
+  "license": "MIT",
+  "resources": "src/resources",
+  "scripts": {
+    "start": "electron-vite preview",
+    "dev": "electron-vite --watch --mode dev",
+    "prebuild": "electron-vite build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^30.0.1",
+    "electron-vite": "^2.2.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10"
+  }
+}
